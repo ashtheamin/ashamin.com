@@ -1,1 +1,0 @@
-# ashamin.com
