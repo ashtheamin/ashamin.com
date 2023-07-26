@@ -26,10 +26,6 @@ function init() {
     document.getElementById("toggleTheme").addEventListener("click", toggleTheme, true)
 }
 
-if (localStorage.getItem("theme") == "") {
-    localStorage.setItem("theme") = "dark";
-}
-
 document.addEventListener('DOMContentLoaded', init, init);
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
     const colorScheme = e.matches ? "dark" : "light";
@@ -37,4 +33,3 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e =
     applytheme();
 });
 applytheme();
-
