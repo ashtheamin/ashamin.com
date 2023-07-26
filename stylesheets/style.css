@@ -5,9 +5,6 @@ html {
     background-color: #2C1728;
 }
 
-html {
-    font-family: sans-serif;
-    text-align: center;
-    color: #2C1728;
-    background-color: #FFDDF2;
+nav {
+    text-align: left;
 }
