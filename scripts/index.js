@@ -12,21 +12,6 @@ function applytheme() {
     }
 }
 
-function init() {
-    function toggleTheme() {
-        console.log('button hit');
-        if (localStorage.getItem("theme") === "light") {
-            localStorage.setItem("theme", "dark");
-        }
-        else {
-            localStorage.setItem("theme", "light");
-        }
-        applytheme();
-    }
-    document.getElementById("toggleTheme").addEventListener("click", toggleTheme, true)
-}
-
-document.addEventListener('DOMContentLoaded', init, init);
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
     const colorScheme = e.matches ? "dark" : "light";
     localStorage.setItem("theme", colorScheme);

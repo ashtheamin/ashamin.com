@@ -3,8 +3,18 @@ html {
     text-align: center;
     color: #FFDDF2;
     background-color: #2C1728;
+    font-size: 170%;
 }
 
-nav {
-    text-align: left;
+img {
+    max-width: 100%;
 }
+
+#avatar {
+    border-radius: 50%;
+}
+
+a {
+    color:inherit;
+}
+
