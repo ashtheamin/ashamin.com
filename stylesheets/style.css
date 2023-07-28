@@ -3,11 +3,12 @@ html {
     text-align: center;
     color: #FFDDF2;
     background-color: #2C1728;
-    font-size: 170%;
+    font-size: 140%;
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 #avatar {
@@ -15,6 +16,11 @@ img {
 }
 
 a {
-    color:inherit;
+    color: inherit;
+}
+
+p {
+    display: inline-flexbox;
+    max-width: 70%;
 }
 
