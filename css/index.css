@@ -16,6 +16,7 @@ html {
 .socials {
     font-family: sans-serif;
     display:inline-flexbox;
+    font-size: xx-large;
 }
 
 .socials a:link {
