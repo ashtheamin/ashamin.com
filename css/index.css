@@ -21,7 +21,7 @@ html {
 }
 
 .socials a:link {
-    color: black;
+    color: palevioletred;
     text-decoration: none;
 }
 
@@ -30,7 +30,8 @@ html {
     background-color: #2C1728;
     color:#FFDDF2;
     text-decoration: none;
-    padding:2%;
+    padding:1%;
+    font-size: medium;
 }
 
 .navbutton a:link {
@@ -38,3 +39,14 @@ html {
     text-decoration: none;
     
 }
+
+.theme {
+    background-color: #FFDDF2;
+    color: #2C1728;
+  }
+  @media (prefers-color-scheme: dark) {
+    .theme.adaptive {
+      background-color: #2C1728;
+      color: #FFDDF2;
+    }
+  }
