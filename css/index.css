@@ -21,28 +21,18 @@ html {
 }
 
 .socials a:link {
-    color: palevioletred;
+    color: hotpink;
     text-decoration: none;
 }
 
 .socials a:visited {
-    color: palevioletred;
+    color: hotpink;
     text-decoration: none;
 }
 
-.navbutton {
-    border:none;
-    background-color: #2C1728;
-    color:#FFDDF2;
+.navlink {
+    color:hotpink;
     text-decoration: none;
-    padding:1%;
-    font-size: medium;
-}
-
-.navbutton a:link {
-    color:#FFDDF2;
-    text-decoration: none;
-    
 }
 
 .theme {
