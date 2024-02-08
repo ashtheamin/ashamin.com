@@ -25,6 +25,11 @@ html {
     text-decoration: none;
 }
 
+.socials a:visited {
+    color: palevioletred;
+    text-decoration: none;
+}
+
 .navbutton {
     border:none;
     background-color: #2C1728;
