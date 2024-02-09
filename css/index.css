@@ -14,24 +14,18 @@ html {
     max-height: 50%;
 }
 
-.socials {
-    font-family: sans-serif;
-    display: inline-flexbox;
-    font-size: xx-large;
-}
-
-.socials a:link {
+a {
     color: hotpink;
     text-decoration: none;
 }
 
-.socials a:visited {
+a:link {
     color: hotpink;
     text-decoration: none;
 }
 
-.navlink {
-    color:hotpink;
+a:visited {
+    color: hotpink;
     text-decoration: none;
 }
 
@@ -44,4 +38,4 @@ html {
       background-color: #2C1728;
       color: #FFDDF2;
     }
-  }
+}
