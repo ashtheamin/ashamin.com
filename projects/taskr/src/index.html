@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="theme adaptive">
+    <head>
+        <title>Ash Amin: Taskr</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <link rel="stylesheet" href="../../../css/index.css" >
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <a class="navlinks" href="../../../index.html#home">Home</a>
+        <a class="navlinks" href="../../../index.html#services">Services</a>
+        <a class="navlinks" href="../../../index.html#projects">Projects</a>
+
+        <h1>Taskr</h1>
+        <input style="display:none" id="upload" type="file"></input>
+        <button id="uploadButton">Upload Tasks</button >
+        <div></div>
+        <button id="downloadButton">Download Tasks</button>
+
+        <form id="taskInputForm">
+            <label>Add Task</label>
+            <input name="addTask" id="addTask"/>
+            <input type="submit"/>
+        </form>
+        <h2>Tasks</h2>
+        <ul id="taskList">
+        </ul>
+        <div></div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -29,6 +29,10 @@ a:visited {
     text-decoration: none;
 }
 
+.navlinks {
+    padding: 2%;
+}
+
 .theme {
     background-color: #FFDDF2;
     color: #2C1728;
