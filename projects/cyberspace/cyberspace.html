@@ -5,21 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link href="../../css/index.css" rel="stylesheet">
     </head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8LRBBSJ82"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W8LRBBSJ82');
+    </script>
+
     <body>
+        <a class="navlinks" href="../../index.html#home">Home</a>
+        <a class="navlinks" href="../../index#services">Services</a>
+        <a class="navlinks" href="../../index#projects">Projects</a>
 
-    <a class="navlinks" href="../../index.html#home">Home</a>
-    <a class="navlinks" href="../../index#services">Services</a>
-    <a class="navlinks" href="../../index#projects">Projects</a>
-
-    <b><p>Cyberspace</p></b>
-    <br>
-
-    <canvas id="canvas1" style="padding:5%"></canvas>
-        <script>
-            var Module = {
-                canvas:document.getElementById("canvas1")
-            };
-        </script>
-    <script src="cyberspace.js"></script>
+        <b><p>Cyberspace</p></b>
+        <br>
+        <canvas id="canvas1" style="padding:5%"></canvas>
+            <script>
+                var Module = {
+                    canvas:document.getElementById("canvas1")
+                };
+            </script>
+        <script src="cyberspace.js"></script>
     </body>
 </html>
