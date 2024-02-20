@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="theme adaptive">
+    <head>
+        <title>Ash Amin: Blog</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../css/index.css" rel="stylesheet">
+    </head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8LRBBSJ82"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W8LRBBSJ82');
+    </script>
+
+    <body>
+        <a class="navlinks" href="../index.html">Home</a>
+        <a class="navlinks" href="../index.html#services">Services</a>
+        <a class="navlinks" href="../index.html#projects">Projects</a>
+        <a class="navlinks" href="../blog/index.html">Contact</a>
+        <a class="navlinks" href="index.html">Contact</a>
+
+        <center><h1>Contact Me</h1></center>
+        
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="df8e1059-b34a-4d12-b320-06744e9e1827">
+            <h4 style="margin: 0;">Name</h4>
+            <input style="font-size:large" type="text" name="name" required>
+            <h4 style="margin: 0;">Email</h4>
+            <input style="font-size:large" type="email" name="email" required>
+            <h4 style="margin: 0;">Message</h4>
+            <textarea style="font-size:large" name="message" required></textarea>
+            <div class="h-captcha" data-captcha="true"></div>
+            <button type="submit">Submit Form</button>
+        </form>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+    </body>
+</html>
