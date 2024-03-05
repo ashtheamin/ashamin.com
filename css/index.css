@@ -6,12 +6,11 @@ html {
     background-color: #FFDDF2;
     color: #2C1728;
     justify-content: center;
-    max-width: 65%;
+    max-width: 50em;
 } 
 
 img {
-    width: 70%;
-    height: auto;
+    max-width: 15em;
 }
 
 a {
@@ -27,11 +26,6 @@ a:link {
 a:visited {
     color: hotpink;
     text-decoration: none;
-}
-
-.avatar {
-    max-width: 50%;
-    max-height: 50%;
 }
 
 .navlinks {
